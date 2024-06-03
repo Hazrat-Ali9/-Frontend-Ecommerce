@@ -1,0 +1,157 @@
+.swiper {
+  width: 100%;
+  height: 200vh;
+}
+
+
+button:hover {
+  color: #ffffff;
+  background: #222222;
+  -webkit-filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.2));
+  filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.2));
+}
+
+.slider-wrapper {
+  position: relative;
+  height: 85vh;
+  overflow: hidden;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.slide {
+  height: 30vh;
+  background-size: cover !important;
+}
+
+.slide::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(transparent),
+    to(rgba(0, 0, 0, 0.9))
+  );
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.9));
+  bottom: 0;
+  left: 0;
+}
+
+.previousButton,
+.nextButton {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+
+  width: 32px;
+  height: 32px;
+  text-indent: -9999px;
+  cursor: pointer;
+}
+
+.previousButton {
+  left: 0;
+  -webkit-transform: rotate(180deg) translateY(calc(50% + 0px));
+  transform: rotate(180deg) translateY(calc(50% + 0px));
+}
+
+.previousButton:hover {
+  left: -10px;
+}
+
+.nextButton {
+  right: 0;
+}
+
+
+
+.slider-content {
+  text-align: center;
+}
+
+.slider-content .inner {
+  padding: 0 70px;
+  box-sizing: border-box;
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.slider-content * {
+  pointer-events: none;
+}
+
+.slider-content .inner button {
+  -webkit-transition-delay: 1s;
+  transition-delay: 1s;
+}
+
+.slider-content .inner p {
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 1.5;
+  margin: 20px auto 30px;
+  max-width: 640px;
+  
+}
+
+.slider-content section {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+
+.slider-content section span {
+  color: #ffffff;
+}
+
+.slider-content section span {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 12px;
+  display: inline-block;
+  text-align: left;
+  line-height: 1.4;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+
+.slider-content section span strong {
+  color: #ffffff;
+  font-size: 14px;
+  display: block;
+}
+
+@media (max-height: 500px) {
+  .slider-wrapper,
+  .slide {
+    height: calc(100vh - 75px);
+  }
+}
+
+@media (max-width: 640px) {
+  .slider-wrapper,
+  .slide {
+    height: calc(80vh - 75px);
+  }
+}
+
+@media (max-height: 600px) {
+  .slider-content .inner h1 {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 640px) {
+  .slider-content .inner h1 {
+    font-size: 32px;
+  }
+} 
