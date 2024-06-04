@@ -49,3 +49,5 @@ const AllDetails = () => {
 };
 
 export default AllDetails;
+// All Details
+
