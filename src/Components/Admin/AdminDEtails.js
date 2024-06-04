@@ -19,3 +19,4 @@ const AdminDEtails = ({ product }) => {
 };
 
 export default AdminDEtails;
+// admin Details
