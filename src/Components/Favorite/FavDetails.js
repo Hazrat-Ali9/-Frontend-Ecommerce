@@ -28,3 +28,4 @@ const FavDetails = ({ favorite }) => {
 };
 
 export default FavDetails;
+// Fav Details
