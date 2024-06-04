@@ -9,3 +9,4 @@ const Contract = () => {
 };
 
 export default Contract;
+// Contract
