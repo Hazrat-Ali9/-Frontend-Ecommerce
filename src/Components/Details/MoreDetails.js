@@ -281,3 +281,5 @@ const MoreDetails = () => {
 };
 
 export default MoreDetails;
+
+// More Details
