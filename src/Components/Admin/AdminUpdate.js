@@ -9,3 +9,4 @@ const AdminUpdate = () => {
 };
 
 export default AdminUpdate;
+// Admin Details
