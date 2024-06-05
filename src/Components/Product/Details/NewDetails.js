@@ -23,3 +23,5 @@ const imageURL = `http://localhost:7000/images/${image}`;
 };
 
 export default NewDetails;
+
+// New Details
