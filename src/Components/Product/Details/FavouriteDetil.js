@@ -22,3 +22,4 @@ const FavouriteDetil = ({product}) => {
 };
 
 export default FavouriteDetil;
+// Favourite Details
