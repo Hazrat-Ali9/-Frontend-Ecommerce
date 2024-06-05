@@ -9,3 +9,4 @@ const CategoryDetails = () => {
 };
 
 export default CategoryDetails;
+// Catagory Details
