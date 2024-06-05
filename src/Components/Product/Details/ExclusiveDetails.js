@@ -22,3 +22,5 @@ const ExclusiveDetails = ({product}) => {
 };
 
 export default ExclusiveDetails;
+
+// Exclusive Details
