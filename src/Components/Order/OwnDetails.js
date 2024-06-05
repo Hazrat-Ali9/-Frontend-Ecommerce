@@ -21,3 +21,4 @@ const OwnDetails = ({order}) => {
 };
 
 export default OwnDetails;
+// Own Details
