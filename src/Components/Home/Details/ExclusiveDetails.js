@@ -23,5 +23,5 @@ const ExclusiveDetails = ({product}) => {
         </div>
     );
 };
-
+// Exclusive details
 export default ExclusiveDetails;
