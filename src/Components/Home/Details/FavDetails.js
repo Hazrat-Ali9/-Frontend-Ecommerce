@@ -1,5 +1,5 @@
 import React from 'react';
-
+// Fav Deatils
 const FavDetails = ({favorite}) => {
     const {name,image} = favorite;
     const imageURL = `http://localhost:7000/images/${image}`;
