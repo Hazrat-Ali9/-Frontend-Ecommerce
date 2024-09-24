@@ -1,5 +1,5 @@
 import React from 'react';
-
+// Flash Details
 const FlashDEtails = ({product}) => {
     const {image,name,price,discount} = product;
     const imageURL = `http://localhost:7000/images/${image}`;
