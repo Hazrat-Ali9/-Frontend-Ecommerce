@@ -1,5 +1,5 @@
 import React from 'react';
-
+// most Details
 const MostDetails = ({product}) => {
     const {name,img} = product
     return (
