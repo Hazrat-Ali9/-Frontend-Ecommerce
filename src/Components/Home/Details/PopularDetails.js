@@ -1,5 +1,5 @@
 import React from 'react';
-
+// popular details 
 const PopularDetails = ({product}) => {
     const {name,img} = product
     return (
