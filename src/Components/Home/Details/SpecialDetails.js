@@ -1,5 +1,5 @@
 import React from 'react';
-
+// Special Details
 const SpecialDetails = ({product}) => {
     const {name,image} = product
     const imageURL = `http://localhost:7000/images/${image}`;
