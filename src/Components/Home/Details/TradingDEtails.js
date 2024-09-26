@@ -1,5 +1,5 @@
 import React from 'react';
-// Traning Details
+// Trading Details
 const TradingDEtails = ({product}) => {
     const {name,img,price} = product
     return (
