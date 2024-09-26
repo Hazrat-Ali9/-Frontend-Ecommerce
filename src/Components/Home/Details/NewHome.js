@@ -1,5 +1,5 @@
 import React from 'react';
-
+// new home
 const NewHome = ({product}) => {
     const {name,image,price}=product;
     const imageURL = `http://localhost:7000/images/${image}`;
